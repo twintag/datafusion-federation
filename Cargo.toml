@@ -31,3 +31,6 @@ tonic = { version = "0.12", features = [
     "codegen",
     "prost",
 ] }
+
+[patch.crates-io]
+datafusion = { version = "42.0.0", git = "https://github.com/twintag/datafusion", branch = "twintag" }
